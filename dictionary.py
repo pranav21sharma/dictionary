@@ -7,7 +7,7 @@
 def translate(w):
     import json 
     from difflib import get_close_matches
-    data = json.load(open("C:/Users/Nilesh/Desktop/word-dict/data.json"))
+    data = json.load(open("path/to/the/json/file/data.json"))
     w = w.lower()
     w1 = w.upper()
     w2 = w.title()
